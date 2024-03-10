@@ -1,0 +1,40 @@
+@use "../base/variables" as v;
+@use "../custom" as *;
+
+.dispositivo {
+  background-color: v.$background-main;
+  margin: 20px auto;
+  color: v.$color-text-primary;
+
+  @include media-breakpoint-up(lg) {
+    max-height: 350vh;
+  }
+
+  &__title {
+    padding: 11px;
+    margin: 10px auto;
+    background-color: v.$background-title;
+    font-size: v.$font-size-lvl3;
+    color: v.$color-text-secondary;
+
+    @include media-breakpoint-up(lg) {
+      font-size: v.$font-size-lvl2;
+    }
+  }
+
+  &__images{
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  &__image1, &__image2, &__image3, &__image4, &__image5, &__image6, &__image7, &__image8, &__image9{
+      width: 425px;
+      transition-property: width;
+      transition-duration: 0.5s;
+      transition-timing-function: ease;
+
+      &:hover {
+        width: 500px;
+      }
+  }
+}

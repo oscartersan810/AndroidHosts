@@ -1,0 +1,28 @@
+@use "../base/variables" as v;
+@use '../custom' as *;
+
+.footer{
+    font-family: v.$font-primary;
+    width: 100%;
+    background-color: v.$background-header;
+    margin: 0 auto;
+
+    &__title{
+        font-size: v.$font-size-lvl3;
+        margin-right: 0.5Srem;
+    }
+
+    &__image{
+        max-width: 70px;
+        border-radius: 45%;
+        overflow: hidden;
+    }
+
+    &__creador{
+        font-size: v.$font-size-lvl3;
+    }
+
+    &__copyright{
+        font-size: v.$font-size-lvl3;
+    }
+}

@@ -1,0 +1,33 @@
+@use '../base/variables' as v;
+@use '../custom' as *;
+
+.versionlineage{
+    background-color: v.$background-main-lineage;
+    margin: 20px auto;
+    color: v.$color-text-primary;
+
+    @include media-breakpoint-up(lg){
+        max-height: 300vh;
+    }
+
+    &__title{
+        padding: 11px;
+        margin: 10px auto;
+        background-color: v.$background-title-lineage;
+        font-size: v.$font-size-lvl3;
+
+        @include media-breakpoint-up(lg){
+            font-size: v.$font-size-lvl2;
+        }
+    }
+    &__versions{
+        font-family: v.$font-aditional;
+        font-size: v.$font-size-lvl4;
+        text-align: center;
+        margin: 0px auto;
+        width: 95%;
+        background-color: v.$background-card-lineage;
+        cursor: pointer;
+    }
+
+}

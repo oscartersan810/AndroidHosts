@@ -1,0 +1,17 @@
+@use '../base/variables' as v;
+
+.headerlineage{
+    font-family: v.$font-primary;
+    width: 100%;
+    background-color: v.$background-header-lineage;
+
+    &__title{
+        font-size: v.$font-size-lvl1;
+        margin-right: 1rem;
+    }
+
+    &__image{
+        max-width: 85px;
+        margin-right: 10px;
+    }
+}

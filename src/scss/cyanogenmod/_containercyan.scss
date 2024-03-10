@@ -1,0 +1,19 @@
+@use '../base/variables' as v;
+@use '../custom' as *;
+
+.cyanogenmod{
+    font-size: 2rem;
+    font-family: v.$font-primary;
+    background-image: url(../img/FondoMovil.png);
+    background-position: center center;
+    background-size: cover;
+
+    @include media-breakpoint-up(md){
+        background-image: url(../pages/build/img/cyanogenmod/fondo.gif);
+    }
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}

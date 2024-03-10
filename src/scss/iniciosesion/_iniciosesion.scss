@@ -1,0 +1,24 @@
+@use '../base/variables' as v;
+
+.iniciosesion{
+    font-size: v.$font-size-lvl4;
+    font-family: v.$font-secondary;
+
+    &__cabecera{
+        font-size: v.$font-size-lvl2;
+        background-color: v.$background-header;
+        text-align: center;
+    }
+
+    &__body{
+        text-align: center;
+        background-color: v.$background-card;
+        font-size: v.$font-size-lvl4;
+        font-family: v.$font-aditional;
+    }
+
+    &__footer{
+        text-align: center;
+        background-color: v.$background-header;
+    }
+}

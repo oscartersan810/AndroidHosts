@@ -1,0 +1,19 @@
+@use '../base/variables' as v;
+@use '../custom' as *;
+
+.video{
+    background-color: v.$background-main;
+    margin: 20px auto;
+    color: v.$color-text-secondary;
+
+    &__title{
+        padding: 11px;
+        margin: 10px auto;
+        background-color: v.$background-title;
+        font-size: v.$font-size-lvl3;
+
+        @include media-breakpoint-up(lg){
+            font-size: v.$font-size-lvl2;
+        }
+    }
+}

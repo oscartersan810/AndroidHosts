@@ -1,0 +1,37 @@
+@use '../base/variables' as v;
+@use '../custom' as *;
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    background-color: v.$background-navigation;
+    font-family: v.$font-primary;
+    font-size: v.$font-size-lvl3;
+
+    @include media-breakpoint-up(md){
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+    }
+
+}
+.navbar-nav{
+    // margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+.navbar-brand {
+    font-size: v.$font-size-lvl3;
+}
+
+.nav-item {
+    margin: auto 0.5em;
+    padding: auto 0.2em;
+}

@@ -1,0 +1,34 @@
+@use "../base/variables" as v;
+@use "../custom" as *;
+
+.versiones {
+    background-color: v.$background-main;
+    margin: 20px auto;
+    color: v.$color-text-primary;
+  
+    @include media-breakpoint-up(lg) {
+      max-height: 350vh;
+    }
+  
+    &__title {
+      padding: 11px;
+      margin: 10px auto;
+      background-color: v.$background-title;
+      font-size: v.$font-size-lvl3;
+      color: v.$color-text-secondary;
+  
+      @include media-breakpoint-up(lg) {
+        font-size: v.$font-size-lvl2;
+      }
+    }
+}
+
+.android__versions{
+    font-family: v.$font-secondary;
+    font-size: v.$font-size-lvl4;
+    text-align: center;
+    margin: 0px auto;
+    width: 90%;
+    background-color: v.$background-card;
+    cursor: pointer;
+}

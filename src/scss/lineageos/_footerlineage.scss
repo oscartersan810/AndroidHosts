@@ -1,0 +1,32 @@
+@use '../base/variables' as v;
+@use '../custom' as *;
+
+.footerlineage{
+    font-family: v.$font-primary;
+    width: 100%;
+    background-color: v.$background-header-lineage;
+    margin: 0 auto;
+
+    &__titleheader{
+        font-size: v.$font-size-lvl3;
+        margin-top: 10px;
+    }
+
+    &__image{
+        max-width: 70px;
+    }
+
+    &__creadortitle{
+        font-size: v.$font-size-lvl3;
+    }
+
+    &__creadorimage{
+        max-width: 60px;
+        border-radius: 40%;
+        overflow: hidden;
+    }
+
+    &__copyright{
+        font-size: v.$font-size-lvl3;
+    }
+}

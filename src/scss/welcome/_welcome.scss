@@ -1,0 +1,25 @@
+@use "../base/variables" as v;
+@use '../custom' as *;
+
+.welcome {
+  background-color: v.$background-main;
+  margin: 20px auto;
+  color: v.$color-text-secondary;
+  font-family: v.$font-primary;
+  font-size: v.$font-size-lvl3;
+
+  &__title {
+    padding: 11px;
+    margin: 10px auto;
+    background-color: v.$background-title;
+    
+    @include media-breakpoint-up(lg){
+        font-size: v.$font-size-lvl2;
+      }
+  }
+
+  &__gallery {
+    margin: 5px;
+    padding: 20px 10px;
+  }
+}

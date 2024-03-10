@@ -1,0 +1,62 @@
+@use '../base/variables' as v;
+@use '../custom' as *;
+
+.desarrollolineage {
+    background-color: v.$background-main-lineage;
+    margin: 20px auto;
+    color: v.$color-text-primary;
+
+    @include media-breakpoint-up(lg) {
+        max-height: 150vh;
+    }
+
+    &__title {
+        padding: 11px;
+        margin: 10px auto;
+        background-color: v.$background-title-lineage;
+        font-size: v.$font-size-lvl3;
+
+        @include media-breakpoint-up(lg) {
+            font-size: v.$font-size-lvl2;
+        }
+    }
+
+    &__details {
+        margin: 28px 20px;
+        margin: 0px auto;
+        cursor: pointer;
+    }
+
+    &__details1,
+    &__details2,
+    &__details3,
+    &__details4 {
+        background-color: v.$background-card-lineage;
+        border: 1px solid v.$color-text-primary;
+        padding: 3px 2px;
+        // width: 100%;
+    }
+}
+
+.details1__title,
+.details2__title,
+.details3__title,
+.details4__title {
+    font-size: v.$font-size-lvl2;
+}
+
+.details1__description,
+.details2__description,
+.details3__description,
+.details4__description {
+    font-size: v.$font-size-lvl4;
+    font-family: v.$font-aditional;
+    line-height: 1.6;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+    &:hover {
+        font-size: v.$font-size-lvl3;
+    }
+}

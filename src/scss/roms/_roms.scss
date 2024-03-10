@@ -1,0 +1,91 @@
+@use "../base/variables" as v;
+@use "../custom" as *;
+
+.roms {
+  background-color: v.$background-main;
+  margin: 20px auto;
+  color: v.$color-text-secondary;
+  font-family: v.$font-primary;
+  font-size: v.$font-size-lvl3;
+
+  @include media-breakpoint-up(md) {
+    font-size: v.$font-size-lvl2;
+    max-height: 100vh;
+  }
+
+  &__title {
+    padding: 11px;
+    margin: 20px auto;
+    background-color: v.$background-title;
+
+    @include media-breakpoint-up(md) {
+      font-size: v.$font-size-lvl2;
+    }
+  }
+
+  &__info {
+    margin: 2rem auto;
+    background-color: v.$background-card;
+  }
+
+  &__cyanogemod,
+  &__lineageos {
+    margin: 0px auto;
+  }
+
+  &__description {
+    font-size: v.$font-size-lvl4;
+    background-color: v.$background-card;
+    color: v.$color-text-primary;
+    font-family: v.$font-secondary;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    transition: font-size, 0.5s;
+    cursor: pointer;
+
+    &:hover {
+      font-size: v.$font-size-lvl3;
+    }
+  }
+}
+
+.cyanogenmod__link,
+.lineageos__link {
+  text-decoration: none;
+  font-size: v.$font-size-lvl3;
+  color: v.$color-text-primary;
+}
+
+.cyanogenmod__title,
+.lineageos__title {
+  font-size: v.$font-size-lvl3;
+  color: v.$color-text-primary;
+  transition: font-size, 0.5s;
+
+  &:hover {
+    font-size: v.$font-size-lvl2;
+  }
+}
+
+.cyanogenmod__image {
+  margin-bottom: 15px;
+  width: 200px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+
+  &:hover {
+    width: 235px;
+  }
+}
+
+.lineageos__image {
+  width: 300px;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+
+  &:hover {
+    width: 335px;
+  }
+}

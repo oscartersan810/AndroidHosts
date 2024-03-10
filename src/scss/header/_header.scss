@@ -1,0 +1,19 @@
+@use '../base/variables' as var;
+
+.header {
+    font-family: var.$font-primary;
+    width: 100%;
+    background-color: var.$background-header;
+
+    &__title{
+        font-size: var.$font-size-lvl1;
+        margin-right: 1rem;
+    }
+
+    &__image{
+        max-width: 100px;
+        border-radius: 45%;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+}
