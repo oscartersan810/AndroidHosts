@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <title>Lista de Roms</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/BS_validation.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <!-- Contenedor -->
+    <div class="container-fluid">
+        <!-- Cabecera -->
+        <header class="header d-flex justify-content-center align-content-center flex-row p-4">
+            <h1 class="header__title text-center text-uppercase">AndroidHosts</h1>
+            <img src="build/img/Android_robot_head (Pequeño).png" alt="IconoCabecera" class="header__image img-fluid">
+        </header>
+        <!-- Navegador -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand fs-2 text-uppercase d-lg-none" href="#">Listado de Secciones</a>
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav container-lg">
+                        <li class="nav-item"><a href="../../index.html" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="desarrollo.html" class="nav-link">Desarrollo</a></li>
+                        <li class="nav-item"><a href="dispositivos.html" class="nav-link">Dispositivos</a></li>
+                        <li class="nav-item"><a href="roms.html" class="nav-link active">Roms</a></li>
+                        <li class="nav-item"><a href="#inicio-sesion" class="nav-link" data-bs-toggle="modal" data-bs-target="#inicio-sesion">Iniciar Sesion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Contenido -->
+        <main>
+            <!-- MENÚ DE ROMS -->
+            <section class="roms container">
+                <h1 class="roms__title text-center text-uppercase w-100">Lista de Roms Modificadas</h1>
+                <div class="roms__info row justify-content-center align-items-center">
+                    <div class="roms__cyanogenmod col-md-6 d-flex justify-content-center align-items-center flex-column g-2">
+                        <a href="cyanogenmod.html" class="cyanogenmod__link"><img src="build/img/cyanogenmod/cyanogenmod-logo.png" alt="cyanogenmodImage" class="cyanogenmod__image img-fluid"></a>
+                        <a href="cyanogenmod.html" class="cyanogenmod__link"><h2 class="cyanogenmod__title text-center text-uppercase">ROM Cyanogenmod</h2></a>
+                    </div>
+                    <div class="roms__lineageos col-md-6 d-flex justify-content-center align-items-center flex-column g-2">
+                        <a href="lineageOS.html" class="lineageos__link"><img src="build/img/lineageOS/lineage-os-logo.png" alt="lineageOSImage" class="lineageos__image img-fluid"></a>
+                        <a href="lineageOS.html" class="lineageos__link"><h2 class="cyanogenmod__title text-center text-uppercase">ROM LineageOs</h2></a>
+                    </div>
+                </div>
+                <p class="roms__description text-center text-uppercase">Nota: Aquí puedes elegir la informacion de la rom que quieras, te redirigira a la pagina correspondiente</p>
+            </section>
+
+            <!-- Inicio Sesion -->
+    <div class="iniciosesion modal fade" id="inicio-sesion" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- cabecera del modal -->
+                <div class="iniciosesion__cabecera modal-header">
+                    <h3 class="modal-title text-center">Registro de Usuario</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!-- cuerpo del modal -->
+                <div class="iniciosesion__body modal-body">
+                    <!-- FORMULARIO -->
+                    <form action="#" class="needs-validation" novalidate>
+                        <legend><i class="bi bi-people"></i>Acceso usuario</legend>
+            
+                        <div class="mt-3">
+                          <label class="form-label" for="input-email"
+                            >Correo electrónico</label
+                          >
+                          <input
+                            class="form-control"
+                            type="email"
+                            name="email"
+                            id="input-email"
+                            required
+                          />
+                          <div id="email-help-block" class="form-text">
+                            Introduzca tu correo electrónico
+                          </div>
+                          <div class="valid-feedback">Campo válido</div>
+                          <div class="invalid-feedback">Debes completar el correo electrónico</div>
+                        </div>
+            
+                        <div class="mt-3">
+                          <label class="form-label" for="input-password" min="8" max="20">Contraseña</label>
+                          <input
+                            class="form-control"
+                            type="password"
+                            name="password"
+                            id="input-password"
+                            required
+                          />
+                          <div id="password-help-block" class="form-text">
+                            Tu contraseña debe tener entre 8 y 20 caracteres, contener
+                            letras y números,...
+                          </div>
+            
+                          <div class="valid-feedback">Campo válido</div>
+                          <div class="invalid-feedback">Debes completar la contraseña</div>
+                        </div>
+            
+                        <div class="mt-3">
+                          <label class="form-label" for="select-profile">Perfil</label>
+                          <select class="form-select" name="role" id="select-profile">
+                            <option selected>Seleccione perfil</option>
+                            <option value="nova">Novato</option>
+                            <option value="avanzado">Avanzado</option>
+                            <option value="experto">Experto</option>
+                          </select>
+                        </div>
+            
+                        <div class="form-check form-switch form-check-reverse mt-3">
+                          <label class="form-label" for="form-check-remember"
+                            >Recuérdame</label
+                          >
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            name="remember"
+                            id="check-remember"
+                          />
+                        </div>
+                        <button class="btn btn-outline-dark fs-4" type="submit">Entrar</button>
+                    </form>
+                </div>
+
+                <!-- footer del modal -->
+                <div class="iniciosesion__footer modal-footer">
+                    <button type="button" class="btn btn-danger w-100 fs-4" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        </main>
+        <!-- FOOTER -->
+        <footer class="footer d-flex justify-content-around align-content-center row">
+            <div class="footer__titleheader col-lg-4 col-md-6 d-flex justify-content-center align-content-center flex-row p-4">
+                <h1 class="footer__title text-center text-uppercase">AndroidHosts</h1>
+                <img src="build/img/Android_robot_head (Pequeño).png" alt="IconoCabecera" class="footer__image img-fluid">
+            </div>
+            <h1 class="footer__creador text-center col-lg-4 col-md-6 p-4">Powered by Oscar DIW</h1>
+            <h1 class="footer__copyright text-center col-lg-4 col-md p-4">Derechos Reservados &copy</h1>
+        </footer>
+    </div>
+</body>
+</html>

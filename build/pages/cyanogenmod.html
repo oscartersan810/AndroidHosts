@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconcyan.ico" type="image/x-icon">
+    <title>Cyanogenmod</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/BS_validation.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+</head>
+<body class="cyanogenmod">
+    <!-- Contenedor -->
+    <div class="containercyan container-fluid">
+        <!-- Cabecera -->
+        <header class="headercyanogen d-flex justify-content-center align-content-center flex-row p-4">
+            <h1 class="headercyanogen__title text-center text-uppercase">CyanogenMod</h1>
+            <img src="build/img/cyanogenmod/cyanogenmod-logo.png" alt="IconoCabecera" class="headercyanogen__image img-fluid">
+        </header>
+        <!-- Navegador -->
+        <nav class="navbarcyanogen navbar navbar-expand-lg">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand fs-2 text-uppercase d-lg-none" href="#">Listado de Secciones</a>
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav container-lg">
+                        <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="#desarrollo" class="nav-link">Desarrollo</a></li>
+                        <li class="nav-item"><a href="#versiones" class="nav-link">Versiones</a></li>
+                        <li class="nav-item"><a href="../../index.html" class="nav-link">AndroidHost</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Contenido -->
+        <main>
+            <!-- INICIO CYANOGENMOD -->
+            <section class="iniciocyan container" id="inicio">
+                <h1 class="iniciocyan__title text-center text-uppercase w-100">Bienvenidos a CyanogenMod</h1>
+                <!-- Carrousel de Fotos -->
+                <div class="iniciocyan__gallery row">
+                    <div class="col">
+                        <div class="carousel slide" id="my-carousel" data-bs-ride="carousel" data-bs-interval="4000">
+                            <!-- botones de navegación -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="0" class="bg-black active"></button>
+                                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="1" class="bg-black"></button>
+                                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="2" class="bg-black"></button>
+                                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="3" class="bg-black"></button>
+                                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="4" class="bg-black"></button>
+                            </div>
+                            <!-- Contenido Carrousel(imágenes) -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="build/img/cyanogenmod/galeriacyanogen/galeria1.png" alt="Galeria1" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="build/img/cyanogenmod/galeriacyanogen/galeria2.png" alt="Galeria2" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="build/img/cyanogenmod/galeriacyanogen/galeria3.png" alt="Galeria3" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="build/img/cyanogenmod/galeriacyanogen/galeria4.png" alt="Galeria4" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="build/img/cyanogenmod/galeriacyanogen/galeria5.png" alt="Galeria5" class="d-block w-100">
+                                </div>
+                            </div>
+                            <!-- Botones Laterales Imagenes -->
+                            <button type="button" class="carousel-control-prev" data-bs-target="#my-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                        
+                            <button type="button" class="carousel-control-next" data-bs-target="#my-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- DESARROLLO CYANOGENMOD -->
+            <section class="desarrollocyan container" id="desarrollo">
+                <h1 class="desarrollocyan__title text-center text-uppercase w-100">Desarrollo de la ROM</h1>
+                <div class="desarrollocyan__details row d-flex justify-content-around align-content-center g-4 flex-row">
+                    <div class="desarrollocyan__details1 col-md-6 text-center">
+                        <h2 class="details1__title">Origen de la ROM</h2>
+                        <p class="details1__description">CyanogenMod (CM) fue un sistema operativo de código abierto basado en Android, desarrollado por Cyanogen. 
+                            Ofrecía características adicionales como soporte de temas, códec de audio FLAC, cliente OpenVPN, control de permisos de aplicaciones, 
+                            tethering y overclocking de CPU. Destacaba por su rendimiento mejorado y la ausencia de software no deseado. 
+                            Fue descontinuado en 2016 y reemplazado por LineageOS, manteniendo 
+                            la base técnica y el enfoque en código abierto.</p>
+                    </div>
+                    <div class="desarrollocyan__details2 col-md-6 text-center">
+                        <h2 class="details2__title">Desarrollo de la ROM</h2>
+                        <p class="details2__description">Después del HTC Dream en 2008, la comunidad de Android descubrió cómo obtener acceso de superusuario. CyanogenMod, basado en Android 6.0.1, 
+                            fue liderado por Cyanogen pero contó con contribuciones de la comunidad. 
+                            Ofrecía una imagen de restauración y la aplicación CyanogenMod Updater. En 2016, Cyanogen se convirtió en Cyngn, 
+                            centrándose en tecnologías para conducción autónoma.</p>
+                    </div>
+                    <div class="desarrollocyan__details3 col-md-6 text-center">
+                        <h2 class="details3__title">Privacidad</h2>
+                        <p class="details3__description">
+                                En abril de 2013, los desarrolladores de CyanogenMod votaron en contra de proteger la privacidad del usuario, 
+                                optando por obligar a los usuarios a enviar datos específicos para mejorar la ROM. 
+                                Esto generó protestas debido a preocupaciones sobre la privacidad. Después de la controversia, 
+                                Steve Kondik revirtió la decisión y permitió desactivar la opción de enviar estadísticas, enfatizando que no había intención maliciosa y que se valoraba la privacidad de los usuarios.</p>
+                        </p>
+                    </div>
+                    <div class="desarrollocyan__details4 col-md-6 text-center">
+                        <h2 class="details4__title">Creador de la ROM</h2>
+                        <img src="build/img/cyanogenmod/authorcyanogen.png" alt="" class="details4__image img-fluid">
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- Versiones del Cyanogenmod -->
+            <section class="versioncyan container" id="versiones">
+                <h1 class="versioncyan__title text-center text-uppercase w-100">Versiones de CyanogenMod</h1>
+                <div class="versioncyan__versions">
+                    <table class="table table-primary">
+                        <thead class="thead-dark m-auto">
+                            <tr>
+                                <th>Versión de CyanogenMod</th>
+                                <th>Versión de Android</th>
+                                <th>Fecha Lanzamiento</th>
+                                <th>Cambios notables</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                            <tr>
+                                <td>3.1</td>
+                                <td>Android 1.5 (Cupcake)</td>
+                                <td>2009</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4.0.x</td>
+                                <td>Android 1.5/6 (Cupcake/Donut)</td>
+                                <td>2009</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4.1.x</td>
+                                <td></td>
+                                <td>2009</td>
+                                <td>4.1.4 en adelante basado en Android 1.6 (Donut); QuickOffice eliminado de 4.1.4 en adelante; Software propietario de Google separado debido al "cese y desista" de la 4.1.99 en adelante</td>
+                            </tr>
+                            <tr>
+                                <td>4.2.x</td>
+                                <td></td>
+                                <td>2009</td>
+                                <td>4.2.3 en adelante tiene soporte a USB tethering; 4.2.6 en adelante basado en Android 1.6r2; 4.2.11 en adelante agrega zum con los dedos para la navegación web, zum con los dedos y teclado swipe para Galería.</td>
+                            </tr>
+                            <tr>
+                                <td>5.0.0</td>
+                                <td>Android 2.0 / 2.1 (Eclair)</td>
+                                <td>14-02-2010</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5.0.8</td>
+                                <td></td>
+                                <td>19-07-2010</td>
+                                <td>Introducido ADWLauncher como lanzador predeterminado</td>
+                            </tr>
+                            <tr>
+                                <td>6.0.0</td>
+                                <td>Android 2.2 (Froyo)</td>
+                                <td>28-08-2010</td>
+                                <td>Introducido soporte para cámara-dual y ad hoc wifi.</td>
+                            </tr>
+                            <tr>
+                                <td>6.1.x</td>
+                                <td></td>
+                                <td>06-12-2010</td>
+                                <td>6.1.0 en adelante basado en Android 2.2.1</td>
+                            </tr>
+                            <tr>
+                                <td>7.0.x</td>
+                                <td>Android 2.3 (Gingerbread)</td>
+                                <td>10-04-2011</td>
+                                <td>7.0.0 en adelante basado en Android 2.3.3</td>
+                            </tr>
+                            <tr>
+                                <td>7.1.0</td>
+                                <td></td>
+                                <td>10-10-2011</td>
+                                <td>Basado en Android 2.3.5</td>
+                            </tr>
+                            <tr>
+                                <td>7.2.0</td>
+                                <td></td>
+                                <td>16-06-2012</td>
+                                <td>Basado en Android 2.3.7, Soporte a nuevos dispositivos, traducciones actualizadas, marcado telefónico predictivo, capacidad para controlar la retroalimentación táctil en las horas de silencio, actualizaciones de bloqueo de pantalla, animaciones portadas de ICS, habilidad para configurar el icono del estado de la batería, muchos errores arreglados</td>
+                            </tr>
+                            <tr>
+                                <td>8.x</td>
+                                <td>Android 3.x (Honeycomb)</td>
+                                <td>No lanzado</td>
+                                <td>Planificada, pero sucedida por Android 4.0 y CyanogenMod 9</td>
+                            </tr>
+                            <tr>
+                                <td>9.x</td>
+                                <td>Android 4.0 (Ice Cream Sandwich)</td>
+                                <td>09-08-2012</td>
+                                <td>Reconstruida desde cero, se basa en ICS y presenta mejoras en la interfaz gráfica y la velocidad.</td>
+                            </tr>
+                            <tr>
+                                <td>9.1</td>
+                                <td></td>
+                                <td>29-08-2012</td>
+                                <td>Soporte a nuevos dispositivos, solución de bugs, nueva funcionalidad: el pago por NFC y del sistema Simply Tapp.</td>
+                            </tr>
+                            <tr>
+                                <td>10.0</td>
+                                <td>Android 4.1 (Jelly Bean)</td>
+                                <td>15-11-2012</td>
+                                <td>Todos los dispositivos actualizados desde la versión 9.1, incluyendo todas las características de Jelly Bean.</td>
+                            </tr>
+                            <tr>
+                                <td>10.1</td>
+                                <td>Android 4.2.2 (Jelly Bean)</td>
+                                <td>24-06-2013</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10.2</td>
+                                <td>Android 4.3 (Jelly Bean)</td>
+                                <td>02-12-2013</td>
+                                <td>Basado en Android 4.3. Teléfono: nueva funcionalidad Blacklist.</td>
+                            </tr>
+                            <tr>
+                                <td>11.0 M1</td>
+                                <td>Android 4.4 (KitKat)</td>
+                                <td>05-12-2013</td>
+                                <td>Basado en Android 4.4. WhisperPush: integración de TextSecure.</td>
+                            </tr>
+                            <tr>
+                                <td>11.0 M8</td>
+                                <td></td>
+                                <td>08-07-2014</td>
+                                <td>Basado en Android 4.4.4. Dispositivos actualizados de Sony, Nightly-soporte a nuevos dispositivos (Sony Xperia Z2 y LG P880), nueva funcionalidad "Protected Apps", solución de bugs en OpenSSL y Towelroot exploit.</td>
+                            </tr>
+                            <tr>
+                                <td>12.0</td>
+                                <td>Android 5.0 (Lollipop)</td>
+                                <td>06-01-2015</td>
+                                <td>Basado en Android 5.0.2. Soporte a nuevos dispositivos (Xperia Z3, Z3 Compact, Z3 Tablet, Nexus 6...)</td>
+                            </tr>
+                            <tr>
+                                <td>12.1</td>
+                                <td>Android 5.1 (Lollipop)</td>
+                                <td>03-05-2015</td>
+                                <td>Basado en Android 5.1.1. Actualización con grandes mejoras, nuevas funcionalidades, solución de bugs y mejor rendimiento de los dispositivos</td>
+                            </tr>
+                            <tr>
+                                <td>13.0</td>
+                                <td>Android 6.0 (Marshmallow)</td>
+                                <td>08-10-2015</td>
+                                <td>Basado en Android 6.0. Estable</td>
+                            </tr>
+                            <tr>
+                                <td>14.0</td>
+                                <td>Android 7.0 (Nougat)</td>
+                                <td>10-2016</td>
+                                <td>Basado en Android 7.0.</td>
+                            </tr>
+                            <tr>
+                                <td>14.1</td>
+                                <td>Android 7.1 (Nougat)</td>
+                                <td>09-11-2016</td>
+                                <td>Basado en Android 7.1.</td>
+                            </tr>
+                        </tbody>
+                    </table>                    
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer class="footercyan d-flex justify-content-around align-content-center row">
+            <div class="footercyan__titleheader col-lg-4 col-md-6 d-flex justify-content-center align-content-center flex-row p-4">
+                <h1 class="footercyan__title text-center text-uppercase">CyanogenMod</h1>
+                <img src="build/img/cyanogenmod/cyanogenmod-logo.png" alt="IconoCabecera" class="footercyan__image img-fluid">
+            </div>
+            <div class="footercyan__creador d-flex justify-content-center align-items-center col-lg-4 col-md-6 p-4">
+                <h1 class="footercyan__creadortitle text-center">Powered by AndroidHost</h1>
+                <img src="build/img/Android_robot_head (Pequeño).png" alt="ImagenAndroidHosts" class="footercyan__creadorimage img-fluid">
+            </div>
+            
+            <h1 class="footercyan__copyright text-center col-lg-4 col-md p-4">Derechos Reservados &copy</h1>
+        </footer>
+    </div>
+</body>
+</html>

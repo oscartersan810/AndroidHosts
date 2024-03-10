@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconlineage.ico" type="image/x-icon">
+    <title>LineageOS</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/BS_validation.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+</head>
+<body class="lineageos">
+    <!-- Contenedor -->
+    <div class="containerlineage container-fluid">
+        <!-- Cabecera -->
+        <header class="headerlineage d-flex justify-content-center align-content-center flex-row p-4">
+            <h1 class="headerlineage__title text-center text-uppercase">LineageOS</h1>
+            <img src="build/img/lineageOS/lineage-os-logo.png" alt="IconoCabecera" class="headerlineage__image img-fluid">
+        </header>
+        <!-- Navegador -->
+        <nav class="navbarlineage navbar navbar-expand-lg">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand fs-2 text-uppercase d-lg-none" href="#">Listado de Secciones</a>
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav container-lg">
+                        <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="#desarrollo" class="nav-link">Desarrollo</a></li>
+                        <li class="nav-item"><a href="#versiones" class="nav-link">Versiones</a></li>
+                        <li class="nav-item"><a href="../../index.html" class="nav-link">AndroidHost</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Contenido -->
+        <main>
+            <!-- INICIO LINEAGEOS -->
+            <section class="iniciolineage container" id="inicio">
+                <h1 class="iniciolineage__title text-center text-uppercase w-100">Bienvenidos a LinegaOS</h1>
+                <!-- Carrousel de Fotos -->
+                <div class="iniciolineage__gallery row">
+                    <div class="col">
+                        <div class="carousel slide" id="my-carousel" data-bs-ride="carousel" data-bs-interval="6000">
+                            <!-- botones de navegación -->
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="0" class="bg-black active"></button>
+                                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="1" class="bg-black"></button>
+                                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="2" class="bg-black"></button>
+                                <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="3" class="bg-black"></button>
+                            </div>
+                            <!-- Contenido Carrousel(imágenes) -->
+                            <div class="carousel-inner carousel-fade">
+                                <div class="carousel-item active">
+                                    <img src="build/img/lineageOS/galeria/galeria1.jpg" alt="Galeria1" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="build/img/lineageOS/galeria/galeria2.jpg" alt="Galeria2" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="build/img/lineageOS/galeria/galeria3.jpg" alt="Galeria3" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="build/img/lineageOS/galeria/galeria4.jpg" alt="Galeria4" class="d-block w-100">
+                                </div>
+                            </div>
+                            <!-- Botones Laterales Imagenes -->
+                            <button type="button" class="carousel-control-prev" data-bs-target="#my-carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                        
+                            <button type="button" class="carousel-control-next" data-bs-target="#my-carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- DESARROLLO LINEAGEOS -->
+            <section class="desarrollolineage container" id="desarrollo">
+                <h1 class="desarrollolineage__title text-center text-uppercase w-100">Desarrollo de la ROM</h1>
+                <div class="desarrollolineage__details row d-flex justify-content-around align-content-center g-4 flex-row">
+                    <div class="desarrollolineage__details1 col-md-6 text-center">
+                        <h2 class="details1__title">Origen de la ROM</h2>
+                        <p class="details1__description">LineageOS es un fork de Android de código abierto, derivado de CyanogenMod, lanzado oficialmente en diciembre de 2016. Se basa en los lanzamientos de Google para Android e incluye código adicional. Ha soportado varios modelos de teléfonos y ha experimentado un crecimiento significativo en su base de usuarios. Los desarrolladores decidieron separar el proyecto de CyanogenMod y Cyanogen Inc., marcando así una nueva etapa en el desarrollo de ROMs personalizadas para Android.</p>
+                    </div>
+                    <div class="desarrollolineage__details2 col-md-6 text-center">
+                        <h2 class="details2__title">Desarrollo de la ROM</h2>
+                        <p class="details2__description">LineageOS, heredero de CyanogenMod, presenta versiones numeradas de Android y es desarrollado por mantenedores específicos utilizando Gerrit para revisión de código. Desde su lanzamiento, ha ofrecido versiones oficiales como 14.1, 13.0, 15.1, 16.0, 17.1, 18.1 y 20, cada una con su propio ciclo de desarrollo. Las compilaciones están firmadas con claves privadas de LineageOS. Las actualizaciones solían ser semanales hasta noviembre de 2018, momento en el que se implementó un ciclo diario para la última rama, con actualizaciones nocturnas OTA, mientras que las versiones anteriores se movieron a un ciclo de lanzamiento regular.</p>
+                    </div>
+                    <div class="desarrollolineage__details3 col-md-6 text-center">
+                        <h2 class="details3__title">Privacidad</h2>
+                        <p class="details3__description">
+                                En abril de 2016, los desarrolladores de lineageOS votaron en contra de proteger la privacidad del usuario, 
+                                optando por obligar a los usuarios a enviar datos específicos para mejorar la ROM. 
+                                Esto generó protestas debido a preocupaciones sobre la privacidad. Después de la controversia, 
+                                Steve Kondik revirtió la decisión y permitió desactivar la opción de enviar estadísticas, enfatizando que no había intención maliciosa y que se valoraba la privacidad de los usuarios.</p>
+                        </p>
+                    </div>
+                    <div class="desarrollolineage__details4 col-md-6 text-center">
+                        <h2 class="details4__title">Antecedentes</h2>
+                        <p class="details4__description">
+                            CyanogenMod (CM) fue una popular ROM de código abierto para dispositivos Android, utilizada por millones de usuarios y como base para otras ROMs. Fundada por Stefanie Kondik, Cyanogen Inc. intentó comercializar el proyecto en 2013, pero no tuvo éxito y cerró en 2016. Esto llevó al surgimiento de LineageOS, una bifurcación del código de CyanogenMod, que retomó el desarrollo como un proyecto comunitario. CyanogenMod ofrecía características avanzadas y opciones de personalización que no estaban disponibles en el firmware oficial de Android.</p>
+                    </p>
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- Versiones del LineageOS -->
+            <section class="versionlineage container" id="versiones">
+                <h1 class="versionlineage__title text-center text-uppercase w-100">Versiones de LineageOS</h1>
+                <div class="versionlineage__versions">
+                    <table class="table table-success">
+                        <thead class="thead-dark m-auto">
+                            <tr>
+                                <th>Versión de LineageOS</th>
+                                <th>Versión AOSP</th>
+                                <th>Lanzamiento Primera Compilación</th>
+                                <th>Lanzamiento Última Compilación</th>
+                                <th>Soporte</th>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody">
+                            <tr>
+                                <td>13.0</td>
+                                <td>6.0.1 (Marshmallow)</td>
+                                <td>22 de enero de 2017</td>
+                                <td>11 de febrero de 2018</td>
+                                <td class="bg-danger">No</td>
+                            </tr>
+                            <tr>
+                                <td>14.1</td>
+                                <td>7.1.2 (Nougat)</td>
+                                <td>22 de enero de 2017</td>
+                                <td>24 de febrero de 2019</td>
+                                <td class="bg-danger">No</td>
+                            </tr>
+                            <tr>
+                                <td>15.1</td>
+                                <td>8.1.0 (Oreo)</td>
+                                <td>26 de febrero de 2018</td>
+                                <td>28 de febrero de 2020</td>
+                                <td class="bg-danger">No</td>
+                            </tr>
+                            <tr>
+                                <td>16.0</td>
+                                <td>9.0.0 (Pie)</td>
+                                <td>1 de marzo de 2019</td>
+                                <td></td>
+                                <td class="bg-danger">No</td>
+                            </tr>
+                            <tr>
+                                <td>17.1</td>
+                                <td>10</td>
+                                <td>1 de abril de 2020</td>
+                                <td></td>
+                                <td class="bg-danger">No</td>
+                            </tr>
+                            <tr>
+                                <td>18.1</td>
+                                <td>11</td>
+                                <td>1 de abril de 2021</td>
+                                <td>En desarrollo</td>
+                                <td class="bg-success">Sí</td>
+                            </tr>
+                            <tr>
+                                <td>19.1</td>
+                                <td>12</td>
+                                <td>26 de abril de 2022</td>
+                                <td>En desarrollo</td>
+                                <td class="bg-success">Sí</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>13</td>
+                                <td>31 de diciembre de 2022</td>
+                                <td>En desarrollo</td>
+                                <td class="bg-success">Sí</td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>14</td>
+                                <td>1 de diciembre de 2023</td>
+                                <td>En desarrollo</td>
+                                <td class="bg-success">Sí</td>
+                            </tr>
+                        </tbody>
+                    </table>                    
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer class="footerlineage d-flex justify-content-around align-content-center row">
+            <div class="footerlineage__titleheader col-lg-4 col-md-6 d-flex justify-content-center align-content-center flex-row p-4">
+                <h1 class="footerlineage__title text-center text-uppercase">LineageOS</h1>
+                <img src="build/img/lineageOS/lineage-os-logo.png" alt="IconoCabecera" class="footerlineage__image img-fluid">
+            </div>
+            <div class="footerlineage__creador d-flex justify-content-center align-items-center col-lg-4 col-md-6 p-4">
+                <h1 class="footerlineage__creadortitle text-center">Powered by AndroidHost</h1>
+                <img src="build/img/Android_robot_head (Pequeño).png" alt="ImagenAndroidHosts" class="footerlineage__creadorimage img-fluid">
+            </div>
+            
+            <h1 class="footerlineage__copyright text-center col-lg-4 col-md p-4">Derechos Reservados &copy</h1>
+        </footer>
+    </div>
+</body>
+</html>
