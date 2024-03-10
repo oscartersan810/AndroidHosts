@@ -1,0 +1,20 @@
+{
+  "name": "proyectofinaldiw",
+  "version": "1.0.0",
+  "description": "AndroidHosts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilar:sass": "sass --watch src/scss:build/css",
+    "purgar:css": "purgecss --css build/css/styles.css --content index.html --output build/css/androidHosts.css"
+  },
+  "keywords": [
+    "AndroidHosts"
+  ],
+  "author": "Oscar Ternero",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.71.1"
+  }
+}
