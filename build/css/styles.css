@@ -11892,14 +11892,23 @@ body {
   background-color: #7DFFB9;
 }
 .header__title {
-  font-size: 4.5rem;
+  font-size: 2.9rem;
   margin-right: 1rem;
 }
+@media (min-width: 768px) {
+  .header__title {
+    font-size: 4.2rem;
+  }
+}
 .header__image {
-  max-width: 100px;
+  max-width: 75px;
   border-radius: 45%;
   overflow: hidden;
-  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  .header__image {
+    max-width: 100px;
+  }
 }
 
 .navbar {
@@ -11911,7 +11920,7 @@ body {
   gap: 2rem;
   background-color: #CBF3BD;
   font-family: "NicoMoji", sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -11921,6 +11930,7 @@ body {
     text-align: center;
     width: auto;
     margin: 0 auto;
+    font-size: 2.4rem;
   }
 }
 
@@ -11952,7 +11962,7 @@ body {
 }
 @media (min-width: 992px) {
   .welcome__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .welcome__gallery {
@@ -11974,7 +11984,7 @@ body {
 }
 @media (min-width: 768px) {
   .information__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .information__card {
@@ -11994,14 +12004,14 @@ body {
 .information .card5__title,
 .information .card6__title {
   color: #121212;
-  font-size: 3.1rem;
+  font-size: 2.9rem;
   text-align: center;
   padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .information .card1__image {
-  margin: 0 50px;
+  margin: 0 auto;
   max-width: 200px;
   cursor: pointer;
 }
@@ -12029,12 +12039,12 @@ body {
     font-size: 2.4rem;
   }
   .information .card2__list:hover {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .information .card3__subtitle, .information .card4__subtitle, .information .card5__subtitle {
   color: #ffffff;
-  font-size: 3.1rem;
+  font-size: 2.4rem;
   text-align: center;
   padding: 5px;
   margin-top: 10px;
@@ -12048,7 +12058,7 @@ body {
     font-size: 2.4rem;
   }
   .information .card3__subtitle:hover, .information .card4__subtitle:hover, .information .card5__subtitle:hover {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 
@@ -12066,7 +12076,7 @@ body {
 }
 @media (min-width: 768px) {
   .logo__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .logo__images {
@@ -12074,7 +12084,9 @@ body {
   padding-bottom: 7rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 768px) {
   .logo__images {
@@ -12098,7 +12110,7 @@ body {
 .logo2__image:hover,
 .logo3__image:hover,
 .logo4__image:hover {
-  width: 400px;
+  width: 65%;
 }
 
 .logo1__image {
@@ -12147,7 +12159,7 @@ body {
 
 .logo5__image {
   margin: 0 auto;
-  margin: 30px 20px;
+  width: 50%;
   transition-property: width;
   transition-duration: 0.5s;
   transition-timing-function: ease;
@@ -12162,7 +12174,7 @@ body {
   }
 }
 .logo5__image:hover {
-  width: 400px;
+  width: 70%;
 }
 
 .footer {
@@ -12192,7 +12204,7 @@ body {
   font-family: "Rubik", sans-serif;
 }
 .iniciosesion__cabecera {
-  font-size: 3.1rem;
+  font-size: 2.9rem;
   background-color: #7DFFB9;
   text-align: center;
 }
@@ -12226,7 +12238,7 @@ body {
 }
 @media (min-width: 992px) {
   .desarrollo__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .desarrollo__card {
@@ -12247,7 +12259,7 @@ body {
 .desarrollo .card5__title,
 .desarrollo .card6__title {
   color: #121212;
-  font-size: 3.1rem;
+  font-size: 2.9rem;
   text-align: center;
   padding: 5px;
   margin-top: 10px;
@@ -12284,7 +12296,7 @@ body {
 }
 @media (min-width: 992px) {
   .versiones__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 
@@ -12311,7 +12323,7 @@ body {
 }
 @media (min-width: 992px) {
   .video__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 
@@ -12334,7 +12346,7 @@ body {
 }
 @media (min-width: 992px) {
   .dispositivo__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .dispositivo__images {
@@ -12360,7 +12372,7 @@ body {
 }
 @media (min-width: 768px) {
   .roms {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
     max-height: 100vh;
   }
 }
@@ -12371,7 +12383,7 @@ body {
 }
 @media (min-width: 768px) {
   .roms__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .roms__info {
@@ -12410,7 +12422,7 @@ body {
 }
 .cyanogenmod__title:hover,
 .lineageos__title:hover {
-  font-size: 3.1rem;
+  font-size: 2.9rem;
 }
 
 .cyanogenmod__image {
@@ -12459,7 +12471,7 @@ body {
   background-color: #4B89AB;
 }
 .headercyanogen__title {
-  font-size: 4.5rem;
+  font-size: 4.2rem;
   margin-right: 1rem;
 }
 .headercyanogen__image {
@@ -12521,7 +12533,7 @@ body {
 }
 @media (min-width: 992px) {
   .iniciocyan__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .iniciocyan__gallery {
@@ -12547,7 +12559,7 @@ body {
 }
 @media (min-width: 992px) {
   .desarrollocyan__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .desarrollocyan__details {
@@ -12565,7 +12577,7 @@ body {
 .details2__title,
 .details3__title,
 .details4__title {
-  font-size: 3.1rem;
+  font-size: 2.9rem;
 }
 
 .details1__description,
@@ -12605,7 +12617,7 @@ body {
 }
 @media (min-width: 992px) {
   .versioncyan__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .versioncyan__versions {
@@ -12667,7 +12679,7 @@ body {
   background-color: #c2f6e7;
 }
 .headerlineage__title {
-  font-size: 4.5rem;
+  font-size: 4.2rem;
   margin-right: 1rem;
 }
 .headerlineage__image {
@@ -12729,7 +12741,7 @@ body {
 }
 @media (min-width: 992px) {
   .iniciolineage__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .iniciolineage__gallery {
@@ -12755,7 +12767,7 @@ body {
 }
 @media (min-width: 992px) {
   .desarrollolineage__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .desarrollolineage__details {
@@ -12773,7 +12785,7 @@ body {
 .details2__title,
 .details3__title,
 .details4__title {
-  font-size: 3.1rem;
+  font-size: 2.9rem;
 }
 
 .details1__description,
@@ -12812,7 +12824,7 @@ body {
 }
 @media (min-width: 992px) {
   .versionlineage__title {
-    font-size: 3.1rem;
+    font-size: 2.9rem;
   }
 }
 .versionlineage__versions {

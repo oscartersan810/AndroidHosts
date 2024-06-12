@@ -23,7 +23,9 @@
         padding-bottom: 7rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: auto;
+        grid-template-rows: repeat(5, 1fr);
+        justify-content: center;
+        align-items: center;
 
         @include media-breakpoint-up(md) {
             grid-template-columns: repeat(2, 1fr);
@@ -44,7 +46,7 @@
     cursor: pointer;
 
     &:hover {
-        width: 400px;
+        width: 65%;
     }
 }
 
@@ -86,7 +88,7 @@
 }
 .logo5__image {
     margin: 0 auto;
-    margin: 30px 20px;
+    width: 50%;
     transition-property: width;
     transition-duration: 0.5s;
     transition-timing-function: ease;
@@ -100,6 +102,6 @@
     }
 
     &:hover {
-        width: 400px;
+        width: 70%;
     }
 }

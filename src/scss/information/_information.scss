@@ -44,7 +44,7 @@
     margin-bottom: 10px;
   }
   .card1__image {
-    margin: 0 50px;
+    margin: 0 auto;
     max-width: 200px;
     cursor: pointer;
 
@@ -79,7 +79,7 @@
 
   .card3__subtitle, .card4__subtitle, .card5__subtitle{
     color: v.$color-text-secondary;
-    font-size: v.$font-size-lvl2;
+    font-size: v.$font-size-lvl3;
     text-align: center;
     padding: 5px;
     margin-top: 10px;
