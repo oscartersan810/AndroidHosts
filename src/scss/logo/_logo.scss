@@ -89,7 +89,7 @@
 }
 .logo5__image {
     margin: 0 auto;
-    width: 50%;
+    width: 30%;
     transition-property: width;
     transition-duration: 0.5s;
     transition-timing-function: ease;
@@ -103,6 +103,6 @@
     }
 
     &:hover {
-        width: 70%;
+        width: 45%;
     }
 }

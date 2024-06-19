@@ -3,14 +3,14 @@
 
 .roms {
   background-color: v.$background-main;
-  margin: 20px auto;
+  margin: 0 auto;
   color: v.$color-text-secondary;
   font-family: v.$font-primary;
   font-size: v.$font-size-lvl3;
 
   @include media-breakpoint-up(md) {
     font-size: v.$font-size-lvl2;
-    max-height: 100vh;
+    height: 100vh;
   }
 
   &__title {
@@ -24,7 +24,7 @@
   }
 
   &__info {
-    margin: 2rem auto;
+    margin: 4rem auto;
     background-color: v.$background-card;
   }
 
@@ -38,13 +38,13 @@
     background-color: v.$background-card;
     color: v.$color-text-primary;
     font-family: v.$font-secondary;
-    margin-top: 4rem;
-    padding-bottom: 2rem;
+    margin-top: 6rem;
+    padding-bottom: 2.8rem;
     transition: font-size, 0.5s;
     cursor: pointer;
 
     &:hover {
-      font-size: v.$font-size-lvl3;
+      font-size: 2.2rem;
     }
   }
 }

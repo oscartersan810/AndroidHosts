@@ -12145,7 +12145,7 @@ body {
 
 .logo5__image {
   margin: 0 auto;
-  width: 50%;
+  width: 30%;
   transition-property: width;
   transition-duration: 0.5s;
   transition-timing-function: ease;
@@ -12160,14 +12160,14 @@ body {
   }
 }
 .logo5__image:hover {
-  width: 70%;
+  width: 45%;
 }
 
 .footer {
   font-family: "NicoMoji", sans-serif;
   width: 100%;
   background-color: #7DFFB9;
-  margin: 0 auto;
+  margin: 20px auto 0px auto;
 }
 .footer__title {
   font-size: 2rem;
@@ -12351,7 +12351,7 @@ body {
 
 .roms {
   background-color: #78A081;
-  margin: 20px auto;
+  margin: 0 auto;
   color: #ffffff;
   font-family: "NicoMoji", sans-serif;
   font-size: 2.4rem;
@@ -12359,7 +12359,7 @@ body {
 @media (min-width: 768px) {
   .roms {
     font-size: 2.9rem;
-    max-height: 100vh;
+    height: 100vh;
   }
 }
 .roms__title {
@@ -12373,7 +12373,7 @@ body {
   }
 }
 .roms__info {
-  margin: 2rem auto;
+  margin: 4rem auto;
   background-color: #BEE58B;
 }
 .roms__cyanogemod, .roms__lineageos {
@@ -12384,13 +12384,13 @@ body {
   background-color: #BEE58B;
   color: #121212;
   font-family: "Rubik", sans-serif;
-  margin-top: 4rem;
-  padding-bottom: 2rem;
+  margin-top: 6rem;
+  padding-bottom: 2.8rem;
   transition: font-size, 0.5s;
   cursor: pointer;
 }
 .roms__description:hover {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
 }
 
 .cyanogenmod__link,
