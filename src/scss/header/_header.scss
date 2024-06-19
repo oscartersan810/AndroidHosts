@@ -10,7 +10,7 @@
         font-size: var.$font-size-lvl2;
         margin-right: 1rem;
 
-        @include media-breakpoint-up(md){
+        @include media-breakpoint-up(lg){
             font-size: var.$font-size-lvl1;
         }
     }
@@ -20,8 +20,8 @@
         border-radius: 45%;
         overflow: hidden;
 
-        @include media-breakpoint-up(md){
-            max-width: 100px;
+        @include media-breakpoint-up(lg){
+            max-width: 90px;
         }
     }
 }

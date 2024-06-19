@@ -16,18 +16,15 @@
       background-color: v.$background-title;
       font-size: v.$font-size-lvl3;
       color: v.$color-text-secondary;
-  
-      @include media-breakpoint-up(lg) {
-        font-size: v.$font-size-lvl2;
-      }
     }
 }
 
 .android__versions{
     font-family: v.$font-secondary;
-    font-size: v.$font-size-lvl4;
+    font-size: v.$font-size-lvl5;
     text-align: center;
     margin: 0px auto;
+    padding: 12px;
     width: 90%;
     background-color: v.$background-card;
     cursor: pointer;

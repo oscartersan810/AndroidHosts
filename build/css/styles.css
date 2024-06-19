@@ -11895,9 +11895,9 @@ body {
   font-size: 2.9rem;
   margin-right: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .header__title {
-    font-size: 4.2rem;
+    font-size: 3.8rem;
   }
 }
 .header__image {
@@ -11905,9 +11905,9 @@ body {
   border-radius: 45%;
   overflow: hidden;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .header__image {
-    max-width: 100px;
+    max-width: 90px;
   }
 }
 
@@ -11926,11 +11926,10 @@ body {
   .navbar {
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     width: auto;
     margin: 0 auto;
-    font-size: 2.4rem;
   }
 }
 
@@ -12210,11 +12209,6 @@ body {
   margin: 20px auto;
   color: #121212;
 }
-@media (min-width: 992px) {
-  .desarrollo {
-    max-height: 350vh;
-  }
-}
 .desarrollo__title {
   padding: 11px;
   margin: 10px auto;
@@ -12222,15 +12216,8 @@ body {
   font-size: 2.4rem;
   color: #ffffff;
 }
-@media (min-width: 992px) {
-  .desarrollo__title {
-    font-size: 2.9rem;
-  }
-}
 .desarrollo__card {
   margin: 0 auto;
-}
-.desarrollo__card1, .desarrollo__card2, .desarrollo__card3, .desarrollo__card4, .desarrollo__card5, .desarrollo__card6 {
   background-color: #BEE58B;
   margin: 5px;
   border-radius: 3%;
@@ -12238,12 +12225,7 @@ body {
   overflow: hidden;
   cursor: pointer;
 }
-.desarrollo .card1__title,
-.desarrollo .card2__title,
-.desarrollo .card3__title,
-.desarrollo .card4__title,
-.desarrollo .card5__title,
-.desarrollo .card6__title {
+.desarrollo .card__title {
   color: #ffffff;
   font-size: 2.4rem;
   text-align: center;
@@ -12253,15 +12235,15 @@ body {
   background-color: #4bac60;
   border-radius: 7px;
 }
-.desarrollo .card1__description, .desarrollo .card2__description, .desarrollo .card3__description, .desarrollo .card4__description, .desarrollo .card5__description, .desarrollo .card6__description {
+.desarrollo .card__description {
   font-size: 1.5rem;
   font-family: "Rubik", sans-serif;
   line-height: 1.7;
-  padding: 5px;
+  padding: 7px;
   transition: font-size, 0.5s;
   cursor: pointer;
 }
-.desarrollo .card1__description:hover, .desarrollo .card2__description:hover, .desarrollo .card3__description:hover, .desarrollo .card4__description:hover, .desarrollo .card5__description:hover, .desarrollo .card6__description:hover {
+.desarrollo .card__description:hover {
   font-size: 1.6rem;
 }
 
@@ -12282,17 +12264,13 @@ body {
   font-size: 2.4rem;
   color: #ffffff;
 }
-@media (min-width: 992px) {
-  .versiones__title {
-    font-size: 2.9rem;
-  }
-}
 
 .android__versions {
   font-family: "Rubik", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   margin: 0px auto;
+  padding: 12px;
   width: 90%;
   background-color: #BEE58B;
   cursor: pointer;
@@ -12459,7 +12437,7 @@ body {
   background-color: #4B89AB;
 }
 .headercyanogen__title {
-  font-size: 4.2rem;
+  font-size: 3.8rem;
   margin-right: 1rem;
 }
 .headercyanogen__image {
@@ -12667,7 +12645,7 @@ body {
   background-color: #c2f6e7;
 }
 .headerlineage__title {
-  font-size: 4.2rem;
+  font-size: 3.8rem;
   margin-right: 1rem;
 }
 .headerlineage__image {
