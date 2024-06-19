@@ -12431,7 +12431,8 @@ body {
 }
 @media (min-width: 992px) {
   .iniciocyan {
-    max-height: 100vh;
+    min-height: 100vh;
+    margin-bottom: 4px;
   }
 }
 .iniciocyan__title {
@@ -12453,7 +12454,8 @@ body {
 }
 @media (min-width: 992px) {
   .desarrollocyan {
-    max-height: 100vh;
+    min-height: 100vh;
+    margin-bottom: 4px;
   }
 }
 .desarrollocyan__title {
@@ -12508,6 +12510,11 @@ body {
   background-color: #255B78;
   margin: 20px auto;
   color: #121212;
+}
+@media (min-width: 992px) {
+  .versioncyan {
+    min-height: 100vh;
+  }
 }
 .versioncyan__title {
   padding: 11px;
@@ -12631,7 +12638,8 @@ body {
 }
 @media (min-width: 992px) {
   .iniciolineage {
-    max-height: 100vh;
+    min-height: 100vh;
+    margin-bottom: 4px;
   }
 }
 .iniciolineage__title {
@@ -12653,7 +12661,7 @@ body {
 }
 @media (min-width: 992px) {
   .desarrollolineage {
-    max-height: 150vh;
+    min-height: 100vh;
   }
 }
 .desarrollolineage__title {
@@ -12697,6 +12705,11 @@ body {
   background-color: #39eecd;
   margin: 20px auto;
   color: #121212;
+}
+@media (min-width: 992px) {
+  .versionlineage {
+    min-height: 100vh;
+  }
 }
 .versionlineage__title {
   padding: 11px;

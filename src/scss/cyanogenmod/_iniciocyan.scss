@@ -6,7 +6,8 @@
     margin: 20px auto;
 
     @include media-breakpoint-up(lg){
-        max-height: 100vh;
+        min-height: 100vh;
+        margin-bottom: 4px;
     }
 
     &__title{

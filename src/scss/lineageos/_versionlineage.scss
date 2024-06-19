@@ -6,6 +6,10 @@
     margin: 20px auto;
     color: v.$color-text-primary;
 
+    @include media-breakpoint-up(lg) {
+        min-height: 100vh;
+    }
+
     &__title{
         padding: 11px;
         margin: 10px auto;
