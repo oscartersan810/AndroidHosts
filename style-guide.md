@@ -38,14 +38,14 @@ Entiendo que necesitas una guía de estilos basada en las variables que has defi
   - Fondo principal: #255B78
   - Fondo de las tarjetas: #71b6dc
   - Fondo de los títulos: #0974b2
-  - Fondo de los subtítulos: #119eef
+  - Fondo de los subtítulos de tarjetas: #119eef
 - Colores "LineageOS":
   - Fondo del encabezado: #c2f6e7
   - Fondo de la navegación: #8adab6
   - Fondo principal: #39eecd
   - Fondo de las tarjetas: #32db9f
   - Fondo de los títulos: #a6face
-  - Fondo de los subtítulos: #90dbb4
+  - Fondo de los subtítulos de tarjetas: #90dbb4
 
 ### Contenedor
 - Anchura: 95%
