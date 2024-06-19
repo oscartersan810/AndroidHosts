@@ -7,7 +7,7 @@
     color: v.$color-text-primary;
 
     @include media-breakpoint-up(lg) {
-        max-height: 150vh;
+        max-height: 100vh;
     }
 
     &__title {
@@ -15,10 +15,6 @@
         margin: 10px auto;
         background-color: v.$background-title-cyanogen;
         font-size: v.$font-size-lvl3;
-
-        @include media-breakpoint-up(lg) {
-            font-size: v.$font-size-lvl2;
-        }
     }
 
     &__details {
@@ -27,10 +23,7 @@
         cursor: pointer;
     }
 
-    &__details1,
-    &__details2,
-    &__details3,
-    &__details4 {
+    &__detail {
         background-color: v.$background-card-cyanogen;
         border: 1px solid v.$color-text-primary;
         padding: 3px 2px;
@@ -38,29 +31,34 @@
     }
 }
 
-.details1__title,
-.details2__title,
-.details3__title,
-.details4__title {
-    font-size: v.$font-size-lvl2;
+.detail__title {
+    font-size: v.$font-size-lvl3;
+    background-color: v.$background-subtitle-cyanogen;
+    color: #ffffff;
+    border-radius: 7px;
 }
 
-.details1__description,
-.details2__description,
-.details3__description {
-    font-size: v.$font-size-lvl4;
+.detail__description {
+    font-size: v.$font-size-lvl5;
     font-family: v.$font-secondary;
+    padding: 15px;
     line-height: 1.7;
+    transition-property: font-size;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-out;
+    &:hover{
+        font-size: 1.7rem;
+    }
 }
 
-.details4__image {
-    width: 235px;
+.detail__image {
+    width: 220px;
     margin-bottom: 5px;
     transition-property: width;
-    transition-duration: 1s;
+    transition-duration: 0.4s;
     transition-timing-function: ease;
 
     &:hover {
-        width: 270px;
+        width: 235px;
     }
 }

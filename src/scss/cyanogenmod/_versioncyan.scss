@@ -6,29 +6,20 @@
     margin: 20px auto;
     color: v.$color-text-primary;
 
-    @include media-breakpoint-up(lg){
-        max-height: 300vh;
-    }
-
     &__title{
         padding: 11px;
         margin: 10px auto;
         background-color: v.$background-title-cyanogen;
         font-size: v.$font-size-lvl3;
-
-        @include media-breakpoint-up(lg){
-            font-size: v.$font-size-lvl2;
-        }
     }
     &__versions{
         font-family: v.$font-secondary;
-        font-size: v.$font-size-lvl4;
+        font-size: 1.4rem;
         text-align: center;
         width: 95%;
-        margin: 0px auto;
+        margin: 20px auto;
         background-color: v.$background-card-cyanogen;
         cursor: pointer;
-
     }
 
 }

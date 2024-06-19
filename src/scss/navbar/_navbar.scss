@@ -15,7 +15,7 @@
     @include media-breakpoint-up(md){
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         text-align: center;
         width: auto;
         margin: 0 auto;
