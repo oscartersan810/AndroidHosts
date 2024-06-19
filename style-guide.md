@@ -1,5 +1,3 @@
-Entiendo que necesitas una guía de estilos basada en las variables que has definido en tu archivo SASS. Aquí tienes una guía de estilo siguiendo el formato que mencionaste:
-
 # AndroidHosts
 - Realiza la maquetación de la página principal del sitio web de AndroidHosts, enfocada en información sobre ROMs personalizadas como CyanogenMod y LineageOS.
 
