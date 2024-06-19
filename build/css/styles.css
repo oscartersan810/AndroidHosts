@@ -12072,6 +12072,7 @@ body {
   grid-template-rows: repeat(5, 1fr);
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 @media (min-width: 768px) {
   .logo__images {
