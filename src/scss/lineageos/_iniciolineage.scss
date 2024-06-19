@@ -7,18 +7,15 @@
     color: v.$color-text-primary;
 
     @include media-breakpoint-up(lg){
-        max-height: 150vh;
+        max-height: 100vh;
     }
 
     &__title{
-        padding: 11px;
+        padding: 12px;
         margin: 10px auto;
         background-color: v.$background-title-lineage;
         font-size: v.$font-size-lvl3;
-
-        @include media-breakpoint-up(lg){
-            font-size: v.$font-size-lvl2;
-        }
+        border-radius: 5px;
     }
 
     &__gallery {

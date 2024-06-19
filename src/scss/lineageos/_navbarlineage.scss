@@ -10,7 +10,7 @@
     gap: 2rem;
     background-color: v.$background-navigation-lineage;
     font-family: v.$font-primary;
-    font-size: v.$font-size-lvl3;
+    font-size: v.$font-size-lvl4;
 
     @include media-breakpoint-up(md){
         flex-direction: row;

@@ -8,7 +8,7 @@
     margin: 0 auto;
 
     &__titleheader{
-        font-size: v.$font-size-lvl3;
+        font-size: v.$font-size-lvl4;
         margin-top: 10px;
     }
 
@@ -17,7 +17,7 @@
     }
 
     &__creadortitle{
-        font-size: v.$font-size-lvl3;
+        font-size: v.$font-size-lvl4;
     }
 
     &__creadorimage{
@@ -27,6 +27,6 @@
     }
 
     &__copyright{
-        font-size: v.$font-size-lvl3;
+        font-size: v.$font-size-lvl4;
     }
 }

@@ -6,25 +6,19 @@
     margin: 20px auto;
     color: v.$color-text-primary;
 
-    @include media-breakpoint-up(lg){
-        max-height: 300vh;
-    }
-
     &__title{
         padding: 11px;
         margin: 10px auto;
         background-color: v.$background-title-lineage;
         font-size: v.$font-size-lvl3;
 
-        @include media-breakpoint-up(lg){
-            font-size: v.$font-size-lvl2;
-        }
     }
     &__versions{
         font-family: v.$font-aditional;
-        font-size: v.$font-size-lvl4;
+        font-size: 1.4rem;
         text-align: center;
-        margin: 0px auto;
+        margin: 20px auto;
+        padding: 10px;
         width: 95%;
         background-color: v.$background-card-lineage;
         cursor: pointer;
