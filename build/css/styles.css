@@ -12252,11 +12252,6 @@ body {
   margin: 20px auto;
   color: #121212;
 }
-@media (min-width: 992px) {
-  .versiones {
-    max-height: 350vh;
-  }
-}
 .versiones__title {
   padding: 11px;
   margin: 10px auto;
@@ -12287,21 +12282,11 @@ body {
   background-color: #2C8F42;
   font-size: 2.4rem;
 }
-@media (min-width: 992px) {
-  .video__title {
-    font-size: 2.9rem;
-  }
-}
 
 .dispositivo {
   background-color: #78A081;
   margin: 20px auto;
   color: #121212;
-}
-@media (min-width: 992px) {
-  .dispositivo {
-    max-height: 350vh;
-  }
 }
 .dispositivo__title {
   padding: 11px;
@@ -12310,23 +12295,18 @@ body {
   font-size: 2.4rem;
   color: #ffffff;
 }
-@media (min-width: 992px) {
-  .dispositivo__title {
-    font-size: 2.9rem;
-  }
-}
 .dispositivo__images {
-  width: 95%;
+  width: 90%;
   margin: 10px auto;
 }
 .dispositivo__image1, .dispositivo__image2, .dispositivo__image3, .dispositivo__image4, .dispositivo__image5, .dispositivo__image6, .dispositivo__image7, .dispositivo__image8, .dispositivo__image9 {
-  width: 425px;
+  width: 400px;
   transition-property: width;
   transition-duration: 0.5s;
   transition-timing-function: ease;
 }
 .dispositivo__image1:hover, .dispositivo__image2:hover, .dispositivo__image3:hover, .dispositivo__image4:hover, .dispositivo__image5:hover, .dispositivo__image6:hover, .dispositivo__image7:hover, .dispositivo__image8:hover, .dispositivo__image9:hover {
-  width: 500px;
+  width: 450px;
 }
 
 .roms {
@@ -12346,11 +12326,6 @@ body {
   padding: 11px;
   margin: 20px auto;
   background-color: #2C8F42;
-}
-@media (min-width: 768px) {
-  .roms__title {
-    font-size: 2.9rem;
-  }
 }
 .roms__info {
   margin: 4rem auto;

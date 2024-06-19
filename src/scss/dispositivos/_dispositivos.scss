@@ -6,9 +6,6 @@
   margin: 20px auto;
   color: v.$color-text-primary;
 
-  @include media-breakpoint-up(lg) {
-    max-height: 350vh;
-  }
 
   &__title {
     padding: 11px;
@@ -16,25 +13,21 @@
     background-color: v.$background-title;
     font-size: v.$font-size-lvl3;
     color: v.$color-text-secondary;
-
-    @include media-breakpoint-up(lg) {
-      font-size: v.$font-size-lvl2;
-    }
   }
 
   &__images{
-    width: 95%;
+    width: 90%;
     margin: 10px auto;
   }
 
   &__image1, &__image2, &__image3, &__image4, &__image5, &__image6, &__image7, &__image8, &__image9{
-      width: 425px;
+      width: 400px;
       transition-property: width;
       transition-duration: 0.5s;
       transition-timing-function: ease;
 
       &:hover {
-        width: 500px;
+        width: 450px;
       }
   }
 }

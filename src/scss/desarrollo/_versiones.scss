@@ -5,10 +5,7 @@
     background-color: v.$background-main;
     margin: 20px auto;
     color: v.$color-text-primary;
-  
-    @include media-breakpoint-up(lg) {
-      max-height: 350vh;
-    }
+    
   
     &__title {
       padding: 11px;

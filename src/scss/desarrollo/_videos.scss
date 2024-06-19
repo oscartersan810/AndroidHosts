@@ -11,9 +11,5 @@
         margin: 10px auto;
         background-color: v.$background-title;
         font-size: v.$font-size-lvl3;
-
-        @include media-breakpoint-up(lg){
-            font-size: v.$font-size-lvl2;
-        }
     }
 }
