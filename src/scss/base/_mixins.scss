@@ -1,0 +1,12 @@
+@use 'variables' as v;
+
+@mixin box-sizing($box-model) {
+    box-sizing: $box-model;
+}
+
+//Crear Grid
+@mixin crear-grid($num-columns, $gap: 10px) {
+    display: grid;
+    grid-template-columns: repeat($num-columns, 1fr);
+    gap: $gap;
+}

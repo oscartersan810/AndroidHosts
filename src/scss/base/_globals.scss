@@ -1,14 +1,16 @@
 @use 'variables' as var;
+@use 'mixins' as m;
 @use '../custom' as *;
 
 html{
     font-size: var.$font-size-original;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    @include m.box-sizing(border-box);
+
 }
 *, *::after, *::before {
-    box-sizing: inherit;
+    @include m.box-sizing(inherit);
 }
 
 body{
@@ -27,3 +29,8 @@ body{
     margin: 0 auto;
     width: 100%;
 }
+
+// .main{
+//     margin: 20px auto;
+//     gap: 20px;
+// }

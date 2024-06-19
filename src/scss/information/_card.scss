@@ -1,0 +1,67 @@
+@use "../base/variables" as v;
+@use "../custom" as *;
+
+.card {
+  background-color: v.$background-card;
+  margin: 5px;
+  border-radius: 3%;
+  padding-bottom: 8rem;
+  overflow: hidden;
+
+  &__title {
+    color: v.$color-text-secondary;
+    font-size: v.$font-size-lvl3;
+    background-color: v.$background-subtitle;
+    border-radius: 7px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  &__image {
+    margin: 0 auto;
+    max-width: 200px;
+    cursor: pointer;
+    transition-property: max-width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+
+    &:hover {
+      max-width: 235px;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    color: v.$color-text-primary;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    font-size: v.$font-size-lvl4;
+
+    &:hover {
+      font-size: v.$font-size-lvl3;
+    }
+  }
+
+  &__subtitle {
+    color: v.$color-text-primary;
+    font-size: v.$font-size-lvl4;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    font-size: v.$font-size-lvl4;
+
+    &:hover {
+      font-size: v.$font-size-lvl3;
+    }
+  }
+}

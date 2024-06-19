@@ -8,21 +8,21 @@
     margin: 0 auto;
 
     &__title{
-        font-size: v.$font-size-lvl3;
+        font-size: v.$font-size-lvl4;
         margin-right: 0.5Srem;
     }
 
     &__image{
-        max-width: 70px;
+        max-width: 65px;
         border-radius: 45%;
         overflow: hidden;
     }
 
     &__creador{
-        font-size: v.$font-size-lvl3;
+        font-size: v.$font-size-lvl4;
     }
 
     &__copyright{
-        font-size: v.$font-size-lvl3;
+        font-size: v.$font-size-lvl4;
     }
 }

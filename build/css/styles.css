@@ -11920,7 +11920,7 @@ body {
   gap: 2rem;
   background-color: #CBF3BD;
   font-family: "NicoMoji", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -11972,10 +11972,8 @@ body {
 
 .information {
   background-color: #78A081;
-  margin: 20px auto;
   color: #ffffff;
   font-family: "NicoMoji", sans-serif;
-  font-size: 2.4rem;
 }
 .information__title {
   padding: 11px;
@@ -11987,79 +11985,66 @@ body {
     font-size: 2.9rem;
   }
 }
-.information__card {
+.information__cards {
   margin: 0 auto;
 }
-.information__card1, .information__card2, .information__card3, .information__card4, .information__card5, .information__card6 {
+
+.card {
   background-color: #BEE58B;
   margin: 5px;
   border-radius: 3%;
   padding-bottom: 8rem;
   overflow: hidden;
 }
-.information .card1__title,
-.information .card2__title,
-.information .card3__title,
-.information .card4__title,
-.information .card5__title,
-.information .card6__title {
-  color: #121212;
-  font-size: 2.9rem;
+.card__title {
+  color: #ffffff;
+  font-size: 2.4rem;
+  background-color: #4bac60;
+  border-radius: 7px;
   text-align: center;
   padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
-.information .card1__image {
+.card__image {
   margin: 0 auto;
   max-width: 200px;
   cursor: pointer;
+  transition-property: max-width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
 }
-@media (min-width: 768px) {
-  .information .card1__image {
-    max-width: 250px;
-    transition-property: max-width;
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-  }
-  .information .card1__image:hover {
-    max-width: 300px;
-  }
+.card__image:hover {
+  max-width: 235px;
 }
-.information .card2__list {
+.card__list {
   list-style: none;
   text-align: center;
   cursor: pointer;
+  color: #121212;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  font-size: 2rem;
 }
-@media (min-width: 768px) {
-  .information .card2__list {
-    transition-property: font-size;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    font-size: 2.4rem;
-  }
-  .information .card2__list:hover {
-    font-size: 2.9rem;
-  }
-}
-.information .card3__subtitle, .information .card4__subtitle, .information .card5__subtitle {
-  color: #ffffff;
+.card__list:hover {
   font-size: 2.4rem;
+}
+.card__subtitle {
+  color: #121212;
+  font-size: 2rem;
   text-align: center;
   padding: 5px;
   margin-top: 10px;
   cursor: pointer;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  font-size: 2rem;
 }
-@media (min-width: 768px) {
-  .information .card3__subtitle, .information .card4__subtitle, .information .card5__subtitle {
-    transition-property: font-size;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    font-size: 2.4rem;
-  }
-  .information .card3__subtitle:hover, .information .card4__subtitle:hover, .information .card5__subtitle:hover {
-    font-size: 2.9rem;
-  }
+.card__subtitle:hover {
+  font-size: 2.4rem;
 }
 
 .logo {
@@ -12184,19 +12169,19 @@ body {
   margin: 0 auto;
 }
 .footer__title {
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin-right: 0.5Srem;
 }
 .footer__image {
-  max-width: 70px;
+  max-width: 65px;
   border-radius: 45%;
   overflow: hidden;
 }
 .footer__creador {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 .footer__copyright {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 .iniciosesion {
@@ -12206,11 +12191,12 @@ body {
   font-size: 2.4rem;
   background-color: #7DFFB9;
   text-align: center;
+  text-transform: uppercase;
 }
 .iniciosesion__body {
   text-align: center;
   background-color: #BEE58B;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: "AveriaSerifLibre", sans-serif;
 }
 .iniciosesion__footer {
@@ -12265,7 +12251,7 @@ body {
   margin-bottom: 10px;
 }
 .desarrollo .card1__description, .desarrollo .card2__description, .desarrollo .card3__description, .desarrollo .card4__description, .desarrollo .card5__description, .desarrollo .card6__description {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: "Rubik", sans-serif;
   line-height: 1.7;
   padding: 5px;
@@ -12301,7 +12287,7 @@ body {
 
 .android__versions {
   font-family: "Rubik", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: center;
   margin: 0px auto;
   width: 90%;
@@ -12393,7 +12379,7 @@ body {
   margin: 0px auto;
 }
 .roms__description {
-  font-size: 1.8rem;
+  font-size: 2rem;
   background-color: #BEE58B;
   color: #121212;
   font-family: "Rubik", sans-serif;
@@ -12582,7 +12568,7 @@ body {
 .details1__description,
 .details2__description,
 .details3__description {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: "Rubik", sans-serif;
   line-height: 1.7;
 }
@@ -12621,7 +12607,7 @@ body {
 }
 .versioncyan__versions {
   font-family: "Rubik", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: center;
   width: 95%;
   margin: 0px auto;
@@ -12791,7 +12777,7 @@ body {
 .details2__description,
 .details3__description,
 .details4__description {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: "AveriaSerifLibre", sans-serif;
   line-height: 1.6;
   transition-property: font-size;
@@ -12828,7 +12814,7 @@ body {
 }
 .versionlineage__versions {
   font-family: "AveriaSerifLibre", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: center;
   margin: 0px auto;
   width: 95%;
