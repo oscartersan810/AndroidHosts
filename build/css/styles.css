@@ -12200,11 +12200,10 @@ body {
 }
 
 .iniciosesion {
-  font-size: 1.8rem;
   font-family: "Rubik", sans-serif;
 }
 .iniciosesion__cabecera {
-  font-size: 2.9rem;
+  font-size: 2.4rem;
   background-color: #7DFFB9;
   text-align: center;
 }

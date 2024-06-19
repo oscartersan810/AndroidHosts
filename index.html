@@ -136,89 +136,86 @@
                     <img src="build/img/LogosAndroid_imagenes/Android_logo_2023.png" alt="Logo5" class="logo5__image img-fluid col">
                 </div>
             </section>
-            <!-- Inicio Sesion -->
-    <div class="iniciosesion modal fade" id="inicio-sesion" data-bs-backdrop="static">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <!-- cabecera del modal -->
-                <div class="iniciosesion__cabecera modal-header">
-                    <h3 class="modal-title text-center">Registro de Usuario</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <!-- cuerpo del modal -->
-                <div class="iniciosesion__body modal-body">
-                    <!-- FORMULARIO -->
-                    <form action="#" class="needs-validation" novalidate>
-                        <legend><i class="bi bi-people"></i>Acceso usuario</legend>
-            
-                        <div class="mt-3">
-                          <label class="form-label" for="input-email"
-                            >Correo electrónico</label
-                          >
-                          <input
-                            class="form-control"
-                            type="email"
-                            name="email"
-                            id="input-email"
-                            required
-                          />
-                          <div id="email-help-block" class="form-text">
-                            Introduzca tu correo electrónico
-                          </div>
-                          <div class="valid-feedback">Campo válido</div>
-                          <div class="invalid-feedback">Debes completar el correo electrónico</div>
-                        </div>
-            
-                        <div class="mt-3">
-                          <label class="form-label" for="input-password" min="8" max="20">Contraseña</label>
-                          <input
-                            class="form-control"
-                            type="password"
-                            name="password"
-                            id="input-password"
-                            required
-                          />
-                          <div id="password-help-block" class="form-text">
-                            Tu contraseña debe tener entre 8 y 20 caracteres, contener
-                            letras y números,...
-                          </div>
-            
-                          <div class="valid-feedback">Campo válido</div>
-                          <div class="invalid-feedback">Debes completar la contraseña</div>
-                        </div>
-            
-                        <div class="mt-3">
-                          <label class="form-label" for="select-profile">Perfil</label>
-                          <select class="form-select" name="role" id="select-profile">
-                            <option selected>Seleccione perfil</option>
-                            <option value="nova">Novato</option>
-                            <option value="avanzado">Avanzado</option>
-                            <option value="experto">Experto</option>
-                          </select>
-                        </div>
-            
-                        <div class="form-check form-switch form-check-reverse mt-3">
-                          <label class="form-label" for="form-check-remember"
-                            >Recuérdame</label
-                          >
-                          <input
-                            class="form-check-input"
-                            type="checkbox"
-                            name="remember"
-                            id="check-remember"
-                          />
-                        </div>
-                        <button class="btn btn-outline-dark fs-4" type="submit">Entrar</button>
-                    </form>
-                </div>
+ <!-- Inicio Sesion -->
+ <div class="iniciosesion modal fade" id="inicio-sesion" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <!-- cabecera del modal -->
+            <div class="iniciosesion__cabecera modal-header">
+                <h3 class="modal-title text-center">Registro de Usuario</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- cuerpo del modal -->
+            <div class="iniciosesion__body modal-body">
+                <!-- FORMULARIO -->
+                <form id="custom-validation-form" class="needs-validation" novalidate>
+                    <legend><i class="bi bi-people"></i>Acceso usuario</legend>
+        
+                    <div class="mt-3">
+                      <label class="form-label" for="input-email">Correo electrónico</label>
+                      <input
+                        class="form-control"
+                        type="email"
+                        name="email"
+                        id="input-email"
+                        required
+                        placeholder="example@gmail.com"
+                      />
+                      <div id="email-help-block" class="form-text">
+                        Introduzca tu correo electrónico
+                      </div>
+                      <div class="valid-feedback">Campo válido</div>
+                      <div class="invalid-feedback">Debes completar el correo electrónico correctamente</div>
+                    </div>
+        
+                    <div class="mt-3">
+                      <label class="form-label" for="input-password">Contraseña</label>
+                      <input
+                        class="form-control"
+                        type="password"
+                        name="password"
+                        id="input-password"
+                        required
+                      />
+                      <div id="password-help-block" class="form-text">
+                        Tu contraseña debe tener entre 8 y 20 caracteres, contener letras y números.
+                      </div>
+                      <div class="valid-feedback">Campo válido</div>
+                      <div class="invalid-feedback">Debes completar la contraseña correctamente</div>
+                    </div>
+        
+                    <div class="mt-3">
+                      <label class="form-label" for="select-profile">Perfil</label>
+                      <select class="form-select" name="role" id="select-profile" required>
+                        <option selected disabled value="">Seleccione perfil</option>
+                        <option value="nova">Novato</option>
+                        <option value="avanzado">Avanzado</option>
+                        <option value="experto">Experto</option>
+                      </select>
+                      <div class="valid-feedback">Campo válido</div>
+                      <div class="invalid-feedback">Debes seleccionar un perfil</div>
+                    </div>
+        
+                    <div class="form-check form-switch form-check-reverse mt-3">
+                      <label class="form-label" for="check-remember">Recuérdame</label>
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        name="remember"
+                        id="check-remember"
+                      />
+                    </div>
+                    <button class="btn btn-outline-dark fs-4" type="submit">Entrar</button>
+                </form>
+            </div>
 
-                <!-- footer del modal -->
-                <div class="iniciosesion__footer modal-footer">
-                    <button type="button" class="btn btn-danger w-100 fs-4" data-bs-dismiss="modal">Cerrar</button>
-                </div>
+            <!-- footer del modal -->
+            <div class="iniciosesion__footer modal-footer">
+                <button type="button" class="btn btn-danger w-100 fs-4" data-bs-dismiss="modal">Cerrar</button>
             </div>
         </div>
     </div>
+</div>
         </main>
         <!-- FOOTER -->
         <footer class="footer d-flex justify-content-around align-content-center row">
