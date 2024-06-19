@@ -12431,7 +12431,7 @@ body {
 }
 @media (min-width: 992px) {
   .iniciocyan {
-    height: 100vh;
+    max-height: 100vh;
   }
 }
 .iniciocyan__title {
@@ -12468,7 +12468,7 @@ body {
   cursor: pointer;
 }
 .desarrollocyan__detail {
-  background-color: #7994A3;
+  background-color: #71b6dc;
   border: 1px solid #121212;
   padding: 3px 2px;
 }
@@ -12522,7 +12522,7 @@ body {
   width: 95%;
   margin: 20px auto;
   padding: 10px;
-  background-color: #7994A3;
+  background-color: #71b6dc;
   cursor: pointer;
 }
 
@@ -12673,14 +12673,14 @@ body {
   padding: 3px 2px;
 }
 
-.detail__title {
+.detail__titlel {
   font-size: 2.4rem;
   background-color: #90dbb4;
   color: #ffffff;
   border-radius: 7px;
 }
 
-.detail__description {
+.detail__descriptionl {
   font-size: 1.5rem;
   font-family: "AveriaSerifLibre", sans-serif;
   padding: 15px;
@@ -12689,7 +12689,7 @@ body {
   transition-duration: 0.4s;
   transition-timing-function: ease-in;
 }
-.detail__description:hover {
+.detail__descriptionl:hover {
   font-size: 1.6rem;
 }
 
