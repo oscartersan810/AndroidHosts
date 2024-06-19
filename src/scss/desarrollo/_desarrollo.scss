@@ -47,16 +47,18 @@
   .card4__title,
   .card5__title,
   .card6__title {
-    color: v.$color-text-primary;
-    font-size: v.$font-size-lvl2;
+    color: v.$color-text-secondary;
+    font-size: v.$font-size-lvl3;
     text-align: center;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: v.$background-subtitle;
+    border-radius: 7px;
   }
 
   .card1__description, .card2__description, .card3__description, .card4__description, .card5__description, .card6__description{
-    font-size: v.$font-size-lvl4;
+    font-size: v.$font-size-lvl5;
     font-family: v.$font-secondary;
     line-height: 1.7;
     padding: 5px;
@@ -64,7 +66,7 @@
     cursor: pointer;
 
     &:hover {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
 }
 }

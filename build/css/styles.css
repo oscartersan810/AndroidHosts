@@ -12197,7 +12197,7 @@ body {
 .iniciosesion__body {
   text-align: center;
   background-color: #BEE58B;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "AveriaSerifLibre", sans-serif;
 }
 .iniciosesion__footer {
@@ -12244,15 +12244,17 @@ body {
 .desarrollo .card4__title,
 .desarrollo .card5__title,
 .desarrollo .card6__title {
-  color: #121212;
-  font-size: 2.9rem;
+  color: #ffffff;
+  font-size: 2.4rem;
   text-align: center;
   padding: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
+  background-color: #4bac60;
+  border-radius: 7px;
 }
 .desarrollo .card1__description, .desarrollo .card2__description, .desarrollo .card3__description, .desarrollo .card4__description, .desarrollo .card5__description, .desarrollo .card6__description {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Rubik", sans-serif;
   line-height: 1.7;
   padding: 5px;
@@ -12260,7 +12262,7 @@ body {
   cursor: pointer;
 }
 .desarrollo .card1__description:hover, .desarrollo .card2__description:hover, .desarrollo .card3__description:hover, .desarrollo .card4__description:hover, .desarrollo .card5__description:hover, .desarrollo .card6__description:hover {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .versiones {
