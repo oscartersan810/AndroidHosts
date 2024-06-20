@@ -12431,7 +12431,7 @@ body {
 }
 @media (min-width: 992px) {
   .iniciocyan {
-    min-height: 100vh;
+    min-height: 90vh;
     margin-bottom: 4px;
   }
 }
@@ -12513,7 +12513,7 @@ body {
 }
 @media (min-width: 992px) {
   .versioncyan {
-    min-height: 100vh;
+    min-height: 90vh;
   }
 }
 .versioncyan__title {
