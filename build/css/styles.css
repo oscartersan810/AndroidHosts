@@ -11926,7 +11926,7 @@ body {
   .navbar {
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     width: auto;
     margin: 0 auto;
@@ -12137,7 +12137,7 @@ body {
   margin-right: 0.5rem;
 }
 .footer__image {
-  max-width: 65px;
+  max-width: 55px;
   border-radius: 45%;
   overflow: hidden;
 }
