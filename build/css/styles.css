@@ -12454,7 +12454,7 @@ body {
 }
 @media (min-width: 992px) {
   .desarrollocyan {
-    min-height: 100vh;
+    min-height: 80vh;
     margin-bottom: 4px;
   }
 }
@@ -12513,7 +12513,7 @@ body {
 }
 @media (min-width: 992px) {
   .versioncyan {
-    min-height: 90vh;
+    min-height: 80vh;
   }
 }
 .versioncyan__title {
@@ -12638,7 +12638,7 @@ body {
 }
 @media (min-width: 992px) {
   .iniciolineage {
-    min-height: 100vh;
+    min-height: 80vh;
     margin-bottom: 4px;
   }
 }
@@ -12661,7 +12661,7 @@ body {
 }
 @media (min-width: 992px) {
   .desarrollolineage {
-    min-height: 100vh;
+    min-height: 80vh;
   }
 }
 .desarrollolineage__title {
@@ -12708,7 +12708,7 @@ body {
 }
 @media (min-width: 992px) {
   .versionlineage {
-    min-height: 100vh;
+    min-height: 80vh;
   }
 }
 .versionlineage__title {
